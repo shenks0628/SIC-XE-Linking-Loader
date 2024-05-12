@@ -1,4 +1,4 @@
-這個專案在實作 sic/xe 的 linking loader，以下為各檔案之概述與說明：
+這個專案在實作 sic/xe 的 linking loader，以下為各檔案之概述與使用說明：
 - common.h 裡宣告 Common class，common.cpp 裡 define Common class 裡各 function 的內容 (reading files and format conversion)
 - pass1.h 裡宣告 Pass1 class，pass1.cpp 裡 define Pass1 class 裡各 function 的內容 (asssigns addresses to all external symbols)
 - pass2.h 裡宣告 Pass2 class，pass2.cpp 裡 define Pass2 class 裡各 function 的內容 (performs the actual loading, relocation, and linking)
